@@ -1,0 +1,43 @@
+# Python / Backend
+venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Env / secrets
+.env
+.env.*
+
+# Logs
+logs/
+tensorboard/
+*.log
+
+# ML models (weights only)
+backend/models/*.keras
+backend/models/*.h5
+backend/models/*.ckpt
+backend/models/*.pb
+
+!backend/models/*.json
+
+# Node / Expo (Mobile)
+node_modules/
+.expo/
+dist/
+web-build/
+expo-env.d.ts
+
+# Native builds (Expo prebuild)
+android/
+ios/
+
+# Debug / Package managers
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+
+
+# OS
+.DS_Store
+Thumbs.db

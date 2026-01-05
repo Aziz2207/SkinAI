@@ -10,18 +10,6 @@ venv/
 # Jupyter
 .ipynb_checkpoints/
 
-# Data
-data/
-*.zip
-*.csv
-*.jpg
-*.png
-
-# Models
-models/*.h5
-models/*.ckpt
-models/*.pb
-
 # Logs
 logs/
 tensorboard/
@@ -29,3 +17,6 @@ tensorboard/
 # OS
 .DS_Store
 Thumbs.db
+
+backend/models/
+*.keras
